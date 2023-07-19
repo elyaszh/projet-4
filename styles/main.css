@@ -298,6 +298,7 @@ span.border-bottom {
   box-shadow: 0rem 0.2rem 0.5rem 0.1rem #D5D5D5;
   max-width: 100%;
   position: relative;
+  height: 69px;
 }
 .menuitem:hover .menuitemheader {
   width: 65%;
@@ -439,11 +440,29 @@ span.border-bottom {
    .footer {
   display: flex;
  }
+
+ .menuheader{
+ 
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+ }
+  .menu {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: -2rem;
+    padding: 0 5rem;
+  }
+
 }
 
 /* MEDIA POUR BUREAU */
 @media (min-width: 1024px) {
-
+  .menu {
+    padding: 0 13rem;
+  }
   .sousmenus {
     display: flex;
     justify-content: center;
